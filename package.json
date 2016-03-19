@@ -1,7 +1,6 @@
 {
   "name": "less2stylus-dirs",
   "version": "1.0.0",
-  "private": true,
   "description": "LESS to Stylus source to source convertor capable of translating Bootstrap",
   "main": "index.js",
   "scripts": {
