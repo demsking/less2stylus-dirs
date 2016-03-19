@@ -1,0 +1,31 @@
+{
+  "name": "less2stylus-dirs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LESS to Stylus source to source convertor capable of translating Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demsking/less2stylus-dirs.git"
+  },
+  "keywords": [
+    "less",
+    "stylus",
+    "converter",
+    "transform"
+  ],
+  "author": "Sébastien Demanou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demsking/less2stylus-dirs/issues"
+  },
+  "homepage": "https://github.com/demsking/less2stylus-dirs#readme",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "less2stylus": "^0.1.0",
+    "mkdirp": "^0.5.1"
+  }
+}
