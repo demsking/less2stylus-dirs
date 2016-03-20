@@ -1,6 +1,6 @@
 {
   "name": "less2stylus-dirs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "LESS to Stylus source to source convertor capable of translating Bootstrap",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/demsking/less2stylus-dirs.git"
+  },
+  "bin": {
+    "less2stylus-dirs": "less2stylus-dirs"
   },
   "keywords": [
     "less",

@@ -4,11 +4,26 @@ Convert LESS to Stylus by parsing LESS sources and traversing resulting AST.
 
 ## Installation
 
-    npm install -g less2stylus-dirs
+```shell
+npm install -g less2stylus-dirs
+```
 
-## Usage
+## Command line usage
 
-    less2stylus-dirs sourcedir outputdir
+```shell
+less2stylus-dirs sourcedir outputdir
+```
+
+## Programmatic usage
+
+```js
+var less2stylusDirs = require('less2stylus-dirs');
+
+var src = './less';
+var dest = './stylus';
+
+less2stylusDirs(src, dest);
+```
 
 ## Bootstrap translation
 
